@@ -23,10 +23,10 @@
         </div>
         <div class="all-btn">
             <div>
-                <button class="btn btn2" >ON</button>
+                <button class="btn btn2">ON</button>
                 <button class="btn btn2" onclick="numShow('%')">%</button>
-                <button class="btn btn2" onclick="numShow('C')">C</button>
-                <button class="btn btn2" onclick="numShow('Del')">DEL</button>
+                <button class="btn btn2" onclick="clearAll()">AC</button>
+                <button class="btn btn2" onclick="del()">DEL</button>
             </div>
             <div>
                 <button class="btn" onclick="numShow('7')">7</button>
@@ -49,7 +49,7 @@
             <div>
                 <button class="btn" onclick="numShow('0')">0</button>
                 <button class="btn" onclick="numShow('.')">.</button>
-                <button class="btn" onclick="numShow('=')">=</button>
+                <button class="btn calculate" onclick="calculate()">=</button>
                 <button class="btn" onclick="numShow('+')">+</button>
             </div>
         </div>
