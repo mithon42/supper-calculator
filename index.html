@@ -19,38 +19,38 @@
             <p id="s-v">S-V.P.A.M</p>
         </div>
         <div>
-            <p class="display" id="display">Calculator</p>
+            <input type="text" class="display" id="result" placeholder="0">
         </div>
         <div class="all-btn">
             <div>
-                <button class="btn btn2" value="on">ON</button>
-                <button class="btn btn2" value="%">%</button>
-                <button class="btn btn2" value="ac">AC</button>
-                <button class="btn btn2" value="del">DEL</button>
+                <button class="btn btn2" >ON</button>
+                <button class="btn btn2" onclick="numShow('%')">%</button>
+                <button class="btn btn2" onclick="numShow('C')">C</button>
+                <button class="btn btn2" onclick="numShow('Del')">DEL</button>
             </div>
             <div>
-                <button class="btn" value="7" id="seven">7</button>
-                <button class="btn" value="8" id="eight">8</button>
-                <button class="btn" value="9" id="nine">9</button>
-                <button class="btn" value="/" id="">/</button>
+                <button class="btn" onclick="numShow('7')">7</button>
+                <button class="btn" onclick="numShow('8')">8</button>
+                <button class="btn" onclick="numShow('9')">9</button>
+                <button class="btn" onclick="numShow('/')">/</button>
             </div>
             <div>
-                <button class="btn" value="4" id="four">4</button>
-                <button class="btn" value="5" id="five">5</button>
-                <button class="btn" value="6" id="six">6</button>
-                <button class="btn" value="x">x</button>
+                <button class="btn" onclick="numShow('4')">4</button>
+                <button class="btn" onclick="numShow('5')">5</button>
+                <button class="btn" onclick="numShow('6')">6</button>
+                <button class="btn" onclick="numShow('*')">x</button>
             </div>
             <div>
-                <button class="btn" value="1" id="one">1</button>
-                <button class="btn" value="2" id="two">2</button>
-                <button class="btn" value="3" id="three">3</button>
-                <button class="btn" value="-">-</button>
+                <button class="btn" onclick="numShow('1')">1</button>
+                <button class="btn" onclick="numShow('2')">2</button>
+                <button class="btn" onclick="numShow('3')">3</button>
+                <button class="btn" onclick="numShow('-')">-</button>
             </div>
             <div>
-                <button class="btn" value="0" id="zero">0</button>
-                <button class="btn" value=".">.</button>
-                <button class="btn" value="=" id="answer">=</button>
-                <button class="btn" value="+">+</button>
+                <button class="btn" onclick="numShow('0')">0</button>
+                <button class="btn" onclick="numShow('.')">.</button>
+                <button class="btn" onclick="numShow('=')">=</button>
+                <button class="btn" onclick="numShow('+')">+</button>
             </div>
         </div>
     </div>
